@@ -2,8 +2,8 @@
     <div class="header">
     <div>猫咪V</div>
     <div>
-        <img src="../../imgs/搜索.svg" alt=""><input type="text" placeholder="请输入搜索内容"></div>
-    <img src="../../imgs/提醒.svg" alt="">
+        <img src="../assets/搜索.svg" alt=""><input type="text" placeholder="请输入搜索内容"></div>
+    <img src="../assets/提醒.svg" alt="">
     </div>
 </template>
 
