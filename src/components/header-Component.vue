@@ -33,21 +33,21 @@
         &:nth-child(2){
          position: relative;
             img{
-                height: .22rem;
+                height: .2rem;
                 position: absolute;
-                top: .03rem;
-                left: .02rem;
+                top: .05rem;
                 z-index: 2;
             }
             input{
-                width:2.2rem;
+                width:2.3rem;
                 height:0.3rem;
                 background:rgba(255,255,255,1);
-                padding-left: .32rem;
+                padding-left: .26rem;
                 position: absolute;
                 border: 0 solid;
                 border-radius: .05rem;
                 outline: none;
+                font-size: .12rem;
             }
         }
     }
@@ -55,7 +55,7 @@
         float: right;
         height: .31rem;
         width: .31rem;
-        margin-right: .1rem;
+        margin-right: .12rem;
     }
 }
 </style>

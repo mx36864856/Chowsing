@@ -3,17 +3,17 @@
     <nav-component></nav-component>
     <div class="nav">
       <div class="show">
-        <a v-for="item in texts" :href="item.href">{{item.text}}</a>
+        <a v-for="(item, index) in texts" :href="item.href" :key="index">{{item.text}}</a>
       </div>
     </div>
     <agile class="agile" :dots="true" :autoplay="true" :infinite="true" :autoplay-speed="3000">
-      <div v-for="item in banner"  class="slide">
+      <div v-for="(item,index) in banner" :key="index"  class="slide">
         <h3  :style="{backgroundImage: 'url(' +item.url + ')'} "></h3>
       </div>
     </agile>
     <div class="image">
-      <img v-for="item in images" :src="item.site">
-      <span v-for="item in images">{{item.text}}</span>
+      <img v-for="(item,index) in images"  :src="item.site">
+      <span v-for="(item,index) in images" >{{item.text}}</span>
     </div>
     <div class="content">
       <div id="one" class="content1">
@@ -705,7 +705,7 @@ export default {
           width: 1.48rem;
           font-weight: 400;
           margin-left: .1rem;
-          font-size: .14rem;
+          font-size: .15rem;
           margin-bottom: .1rem;
           span:nth-child(1){
             float: left;
