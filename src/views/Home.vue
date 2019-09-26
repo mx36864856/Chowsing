@@ -538,7 +538,6 @@ export default {
   name: 'home',
   components: {
       NavComponent
-
   },
     data() {
       return {

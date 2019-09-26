@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import  Mine from './views/Mine.vue'
-import  Classify from './views/Classify.bue'
+import  Classify from './views/Classify.vue'
 Vue.use(Router)
 
 export default new Router({
