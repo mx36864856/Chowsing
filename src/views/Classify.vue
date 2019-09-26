@@ -84,7 +84,7 @@
 .classify-top{
     height: .38rem;
     width: 100%;
-    padding: 0 .18rem;
+    /*margin: 0 .18rem;*/
     div{
         width: 1.65rem;
         height: .26rem;
@@ -98,6 +98,7 @@
     }
     div:nth-child(1){
         margin-right: .1rem;
+        margin-left: .18rem;
     }
     div.select{
         height: .38rem;
@@ -110,7 +111,7 @@
 }
 .content{
     div{
-        width: 67%;
+        width: 2.5rem;
         float: right;
         p:nth-child(1){
             color: #d3a37e;
@@ -134,7 +135,7 @@
         }
     }
     div.content-1{
-        width: 30%;
+        width: 1.2rem;
         float: left;
         p{
             height: .5rem;
