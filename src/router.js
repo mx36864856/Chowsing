@@ -4,6 +4,8 @@ import Home from './views/Home.vue'
 import  Mine from './views/Mine.vue'
 import  Classify from './views/Classify.vue'
 import  Community from './views/Community.vue'
+import  Catalogue from './views/Catalogue.vue'
+import  Space from './views/Space.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -34,6 +36,14 @@ export default new Router({
           path:'/community',
           name:'community',
           component: Community
+      },{
+          path:'/catalogue',
+          name:'catalogue',
+          component: Catalogue
+      },{
+          path:'/space',
+          name:'space',
+          component: Space
       }
   ]
 })
