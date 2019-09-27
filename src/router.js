@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from './views/Home.vue'
 import  Mine from './views/Mine.vue'
 import  Classify from './views/Classify.vue'
+import  Community from './views/Community.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -29,6 +30,10 @@ export default new Router({
           path:'/classify',
           name:'classify',
           component: Classify
+      },{
+          path:'/community',
+          name:'community',
+          component: Community
       }
   ]
 })

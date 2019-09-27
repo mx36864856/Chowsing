@@ -679,7 +679,7 @@ export default {
   .agile.agile2{
     .agile__dots{
       margin: 0 auto;
-      margin-top: .1rem;
+      margin-top: -.2rem;
       z-index: 2;
       .agile__dot{
          button{
@@ -693,10 +693,11 @@ export default {
       .text{
         margin: 0 .1rem;
         width: 1.58rem;
-        height: 2.3rem;
+        height: 2.4rem;
         float: left;
         img{
-          width: 1.48em;
+          width: 1.48rem;
+            /*display: none;*/
         }
         p{
           color: #333;
@@ -705,7 +706,7 @@ export default {
           font-weight: 400;
           margin-left: .1rem;
           font-size: .15rem;
-          margin-bottom: .1rem;
+          margin-top: .1rem;
           span:nth-child(1){
             float: left;
           }
