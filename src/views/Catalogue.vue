@@ -1,7 +1,6 @@
 <template>
     <div class="catalogue">
         <div class="err">
-
         </div>
         <div class="catalogue-top"><img src="../assets/catalogue/(@2x.png"></div>
         <div class="catalogue-bottom">
@@ -39,6 +38,8 @@
                         setTimeout(function () {
                             err.classList.remove('show')
                         },2000)
+                    }else {
+                        window.location.href = "/home"
                     }
                 }
             }

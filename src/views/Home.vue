@@ -522,12 +522,14 @@
         </agile>
       </div>
     </div>
+    <Move></Move>
   </div>
 
 </template>
 
 <script>
 import NavComponent from "../components/header-Component";
+import Move from "../components/move";
 import img1 from '../assets/home/u=194457569,2178415267&fm=26&gp=0@2x.png'
 import img2 from '../assets/home/u=18720470,1837941433&fm=15&gp=0@2x.png'
 import img3 from '../assets/home/u=937199075,1690847182&fm=15&gp=0@2x.png'
@@ -537,7 +539,8 @@ import imgs from '../assets/home/banner@2x.png'
 export default {
   name: 'home',
   components: {
-      NavComponent
+      NavComponent,
+      Move
   },
     data() {
       return {

@@ -5,7 +5,7 @@
             <div>
                 <img src="../assets/搜索.svg" alt=""><input type="text" placeholder="请输入搜索内容">
             </div>
-            <img src="../assets/购物车.svg" alt="">
+            <a href="/space"><img src="../assets/购物车.svg" alt=""></a>
             <img src="../assets/提醒.svg" alt="">
         </div>
         <div class="classify-top">
@@ -24,16 +24,19 @@
                 </div>
             </div>
         </div>
+        <Move></Move>
     </div>
 </template>
 
 <script>
+    import Move from "../components/move";
     import NavComponent from "../components/header-Component";
     import img from "../assets/classify/u=2614015722,3752731499&fm=26&gp=0@2x.png";
     export default {
         name: "Classify",
         components: {
-            NavComponent
+            NavComponent,
+            Move
         },
         data(){
             return{
@@ -122,12 +125,14 @@
                 }
             }
         }
-        img:nth-child(3){
+        a{
+            img{
             float: right;
             height: .18rem;
             /*width: .31rem;*/
             margin-right: .13rem;
             margin-top: .07rem;
+            }
         }
         img:nth-child(4){
             float: right;

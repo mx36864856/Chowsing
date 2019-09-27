@@ -14,8 +14,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: Home
+      name: 'catalogue',
+      component: Catalogue
     },
     {
       path: '/about',
@@ -37,9 +37,9 @@ export default new Router({
           name:'community',
           component: Community
       },{
-          path:'/catalogue',
-          name:'catalogue',
-          component: Catalogue
+          path:'/home',
+          name:'home',
+          component: Home
       },{
           path:'/space',
           name:'space',

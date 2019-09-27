@@ -17,10 +17,12 @@
                 <img src="../assets/mine/)@2x.png">
             </div>
         </div>
+        <Move></Move>
     </div>
 </template>
 
 <script>
+    import Move from "../components/move";
     import img1 from '../assets/mine/7@2x.png'
     import img2 from '../assets/mine/5@2x.png'
     import img3 from '../assets/mine/3@2x.png'
@@ -28,7 +30,9 @@
     import img5 from '../assets/mine/1@2x.png'
     import img6 from '../assets/mine/4@2x.png'
     export default {
-        name: "Mine",
+        name: "Mine",components: {
+            Move
+        },
         data(){
             return{
                 content:[{

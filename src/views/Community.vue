@@ -36,10 +36,12 @@
                     <span>{{item.four}}</span>
                 </div>
         </div>
+        <Move></Move>
     </div>
 </template>
 
 <script>
+    import Move from "../components/move";
     import NavComponent from "../components/header-Component";
     import img1 from "../assets/community1/anquan@2x.png";
     import img2 from "../assets/community1/zicha@2x.png";
@@ -56,7 +58,8 @@
     export default {
         name: "Community",
         components: {
-            NavComponent
+            NavComponent,
+            Move
         },
         data(){
             return{
