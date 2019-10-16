@@ -12,8 +12,17 @@ export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [
+      {
+          path:'/',
+          name:'home',
+          component: Home
+      },
+      {
+          path:'/home',
+          redirect:'/'
+      },
     {
-      path: '/',
+      path: '/catalogue',
       name: 'catalogue',
       component: Catalogue
     },
@@ -36,10 +45,6 @@ export default new Router({
           path:'/community',
           name:'community',
           component: Community
-      },{
-          path:'/home',
-          name:'home',
-          component: Home
       },{
           path:'/space',
           name:'space',
